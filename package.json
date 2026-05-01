@@ -1,0 +1,23 @@
+{
+  "name": "smart-document-agent",
+  "version": "1.0.0",
+  "description": "智能文档处理Agent - 自动化文档分析、摘要和问答系统",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "langchain": "^0.1.0",
+    "pdf-parse": "^1.1.1",
+    "docx": "^8.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": ["AI", "Agent", "Document Processing", "LLM", "RAG"],
+  "author": "",
+  "license": "MIT"
+}
